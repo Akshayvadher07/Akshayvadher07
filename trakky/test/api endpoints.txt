@@ -1,0 +1,29 @@
+Now, you have the following API endpoints:
+
+List/Create Items:
+
+Endpoint: /items/
+HTTP Methods: GET (list items), POST (create a new item)
+Calls the ItemListCreateView to handle both listing and creating items.
+
+
+Retrieve an Item:
+
+Endpoint: /items/<uuid:pk>/retrieve/
+HTTP Method: GET
+Calls the ItemRetrieveView to retrieve the details of an entity identified by its unique identifier (uuid:pk).
+
+
+Update an Item:
+
+Endpoint: /items/<uuid:pk>/update/
+HTTP Method: PUT
+Calls the ItemUpdateView to update the details of an entity identified by its unique identifier (uuid:pk).
+
+
+Delete an Item:
+
+Endpoint: /items/<uuid:pk>/delete/
+HTTP Method: DELETE
+Calls the ItemDeleteView to delete an entity identified by its unique identifier (uuid:pk).
+Now, you can create new items by making a POST request to /items/ with the required data in the request body.

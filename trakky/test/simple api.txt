@@ -1,0 +1,13 @@
+->django-admin startproject todo_project
+
+->django-admin startapp todo_app
+
+->Now, when you run your Django development server, you can access the CRUD API at
+
+=> http://127.0.0.1:8000/api/items/ 
+
+for creating and listing items, and
+
+=> http://127.0.0.1:8000/api/items/<item_id>/
+
+for retrieving, updating, and deleting a specific item.
